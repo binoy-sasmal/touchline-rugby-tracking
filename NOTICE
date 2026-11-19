@@ -1,0 +1,7 @@
+Touchline: Rugby Video Detection and Tracking
+Copyright 2026 Binoy Sasmal
+
+Pretrained model format and decoding: OpenCV Zoo YOLOX, Apache-2.0.
+Model licence retained in assets/LICENSE-YOLOX.txt.
+Footage and derived visual assets: The University of Auckland, CC BY 2.5.
+See THIRD_PARTY.md for attribution, sources, licences and changes.

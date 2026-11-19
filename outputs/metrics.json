@@ -1,0 +1,92 @@
+{
+  "tp": 26,
+  "fp": 3,
+  "fn": 3,
+  "id_switches": 1,
+  "identity_links": 19,
+  "labelled_frames": 8,
+  "ground_truth_boxes": 29,
+  "precision": 0.896551724137931,
+  "recall": 0.896551724137931,
+  "iou_threshold": 0.5,
+  "per_frame": [
+    {
+      "source_frame": 550,
+      "gt": 4,
+      "predicted": 4,
+      "tp": 3,
+      "fp": 1,
+      "fn": 1,
+      "id_switches": 0
+    },
+    {
+      "source_frame": 555,
+      "gt": 4,
+      "predicted": 4,
+      "tp": 3,
+      "fp": 1,
+      "fn": 1,
+      "id_switches": 0
+    },
+    {
+      "source_frame": 560,
+      "gt": 4,
+      "predicted": 4,
+      "tp": 3,
+      "fp": 1,
+      "fn": 1,
+      "id_switches": 0
+    },
+    {
+      "source_frame": 565,
+      "gt": 5,
+      "predicted": 5,
+      "tp": 5,
+      "fp": 0,
+      "fn": 0,
+      "id_switches": 1
+    },
+    {
+      "source_frame": 570,
+      "gt": 3,
+      "predicted": 3,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "id_switches": 0
+    },
+    {
+      "source_frame": 575,
+      "gt": 3,
+      "predicted": 3,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "id_switches": 0
+    },
+    {
+      "source_frame": 580,
+      "gt": 3,
+      "predicted": 3,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "id_switches": 0
+    },
+    {
+      "source_frame": 585,
+      "gt": 3,
+      "predicted": 3,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "id_switches": 0
+    }
+  ],
+  "scope": "Sparse-frame diagnostic; same-author labels; not MOTChallenge MOTA/IDF1 or an independent benchmark.",
+  "labels_sha256": "e0b55b2b42462f18f2ddd89334cb85457d014d777060bd8dfa36ca89278dccaf",
+  "predictions_sha256": "4cc17632311981daf24b48d19bbe15a16a82f79d6bd33a0ea28bf84ab03df14e",
+  "tracked_detection_precision": 0.9259259259259259,
+  "tracked_detection_recall": 0.8620689655172413,
+  "note": "Precision/recall/TP/FP/FN use raw detections; ID switches/links use track observations. See frozen protocol."
+}

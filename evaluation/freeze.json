@@ -1,0 +1,18 @@
+{
+  "labels_sha256": "e0b55b2b42462f18f2ddd89334cb85457d014d777060bd8dfa36ca89278dccaf",
+  "frozen_utc": "2026-11-19T12:51:14.595199+00:00",
+  "stage": "visual labels and scope frozen before first detector inference",
+  "author": "Codex visual inspection; not human-reviewed",
+  "evaluation_iou": 0.5,
+  "model_sha256": "c5c2d13e59ae883e6af3b45daea64af4833a4951c92d116ec270d9ddbe998063",
+  "source_sha256": "7826343d64a2b945e62f9a966951bd786838c4401857237ecd1e7dbce135826f",
+  "settings": {
+    "start_frame": 550,
+    "end_frame_exclusive": 610,
+    "detector_confidence": 0.15,
+    "tracker_high": 0.5,
+    "tracker_low": 0.15,
+    "tracker_iou": 0.15,
+    "max_age": 10
+  }
+}

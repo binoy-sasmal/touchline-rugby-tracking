@@ -1,0 +1,47 @@
+{
+  "frames": 60,
+  "start_frame": 550,
+  "end_frame_exclusive": 610,
+  "source_fps": 25.0,
+  "dimensions": [
+    640,
+    360
+  ],
+  "model_load_ms": 103.48769999109209,
+  "warmup_ms": 206.77649998106062,
+  "detector": {
+    "median_ms": 156.1583000002429,
+    "p95_ms": 170.59756502276286
+  },
+  "tracker": {
+    "median_ms": 0.2817499917000532,
+    "p95_ms": 0.391065061558038
+  },
+  "loop_elapsed_s": 9.360201800009236,
+  "loop_fps": 6.4101182091972415,
+  "h264_transcode_s": 0.3278870000503957,
+  "opencv_threads": 4,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD",
+  "python": "3.12.5",
+  "opencv": "5.1.0",
+  "numpy": "2.5.5",
+  "source_sha256": "7826343d64a2b945e62f9a966951bd786838c4401857237ecd1e7dbce135826f",
+  "model_sha256": "c5c2d13e59ae883e6af3b45daea64af4833a4951c92d116ec270d9ddbe998063",
+  "settings": {
+    "detector_confidence": 0.15,
+    "nms": 0.5,
+    "tracker_high": 0.5,
+    "tracker_low": 0.15,
+    "tracker_iou": 0.15,
+    "max_age_source_frames": 10
+  },
+  "source_files": {
+    "detector.py": "f99d3857d300a559f502ec6d735c6692e532af451c48d55d8ce9fdb261915289",
+    "evaluate.py": "e40a02f75e95fa4ce0ac955473dd207af30abf890ff3632af313080d2461d224",
+    "geometry.py": "1e2ffaec86730d0c39a00ed627d751247ebf771c9b2b1ca2c2a3b9ed0900b779",
+    "run.py": "d45fe2bd200431f352200d16c4e7f63ad5c1da0de458148cb9907337d2d40e97",
+    "tracker.py": "ba0853e2b328a998d89eae6a36d3b67447ed4dbe1f5a018a78ecc7d378d16567",
+    "__init__.py": "c8c45088613fb1d5e01d8e4c0dcf06496c4a49e16b8d32a4b1f4093c85eb666a"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "media": {
+    "readyState": 4,
+    "duration": 2.4,
+    "width": 640,
+    "height": 440,
+    "currentTime": 1.3183,
+    "paused": false
+  },
+  "page_errors": [],
+  "mobile_width": {
+    "viewport": 390,
+    "content": 390
+  },
+  "browser": "Microsoft Edge headless",
+  "status": "PASS"
+}

@@ -1,0 +1,15 @@
+{
+  "annotation_author": "Codex visual inspection, before model inference; not independently human reviewed",
+  "source": "assets/rugby.mp4",
+  "protocol": {"roi_xyxy": [30, 30, 610, 320], "minimum_visible_height": 40, "box_convention": "xyxy visible extent, not inferred hidden body; on-field people including officials; source 640x360", "identity_rule": "visually continuous person within this shot only"},
+  "frames": [
+    {"source_frame": 550, "objects": [{"id": 1, "box": [263, 109, 380, 310]}, {"id": 2, "box": [342, 98, 445, 242]}, {"id": 3, "box": [279, 74, 367, 201]}, {"id": 4, "box": [63, 201, 191, 360]}]},
+    {"source_frame": 555, "objects": [{"id": 1, "box": [304, 114, 402, 286]}, {"id": 2, "box": [337, 93, 385, 170]}, {"id": 3, "box": [410, 73, 514, 215]}, {"id": 4, "box": [107, 196, 224, 360]}]},
+    {"source_frame": 560, "objects": [{"id": 1, "box": [263, 89, 379, 269]}, {"id": 2, "box": [228, 79, 328, 235]}, {"id": 3, "box": [479, 63, 573, 210]}, {"id": 4, "box": [58, 209, 207, 360]}]},
+    {"source_frame": 565, "objects": [{"id": 1, "box": [109, 71, 198, 254]}, {"id": 2, "box": [14, 76, 122, 233]}, {"id": 3, "box": [431, 67, 490, 221]}, {"id": 4, "box": [0, 214, 79, 360]}, {"id": 5, "box": [536, 115, 640, 302]}]},
+    {"source_frame": 570, "objects": [{"id": 3, "box": [322, 74, 424, 221]}, {"id": 5, "box": [399, 103, 507, 296]}, {"id": 6, "box": [584, 9, 634, 126]}]},
+    {"source_frame": 575, "objects": [{"id": 3, "box": [327, 83, 403, 215]}, {"id": 5, "box": [365, 87, 481, 257]}, {"id": 6, "box": [501, 4, 553, 119]}]},
+    {"source_frame": 580, "objects": [{"id": 3, "box": [306, 87, 393, 228]}, {"id": 5, "box": [340, 91, 449, 245]}, {"id": 6, "box": [457, 8, 511, 123]}]},
+    {"source_frame": 585, "objects": [{"id": 3, "box": [241, 67, 321, 212]}, {"id": 5, "box": [347, 90, 471, 222]}, {"id": 6, "box": [415, 5, 470, 117]}]}
+  ]
+}
